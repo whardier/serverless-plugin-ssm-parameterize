@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-ssm-parameterize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Serverless plugin adding several variable tools, resolvers, and commands",
   "main": "src/index.js",
   "scripts": {
@@ -41,8 +41,7 @@
     "@aws-sdk/client-lambda": "^3.24.0",
     "@aws-sdk/client-ssm": "^3.24.0",
     "bluebird": "^3.7.2",
-    "memoizee": "^0.4.15",
-    "type": "^2.5.0"
+    "retry": "^0.13.1"
   },
   "eslintConfig": {
     "extends": "@serverless/eslint-config/node",
